@@ -1,0 +1,19 @@
+n = int(input("No of terms of Fibonacci series:"))
+n1 = 0
+n2 = 1
+i = 0
+if n<=0:
+    print ("Enter a valid no")
+elif n==1:
+    print ("Fibonacci series:")
+    print(0)
+else:
+    print("Fibonacci series:")
+    print (n1)
+    print (n2)
+    while i<=(n-3):
+        n3 = n1+n2
+        n1 = n2
+        n2 = n3
+        i+=1
+        print (n3)
