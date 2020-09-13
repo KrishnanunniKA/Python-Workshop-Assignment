@@ -1,0 +1,23 @@
+file = input("Enter the file name:")
+if file.lower().endswith(".py"):
+    print(file+" is a Python language file")
+elif file.lower().endswith(".java"):
+    print(file+" is a Java language file")
+elif file.lower().endswith(".cpp"):
+    print(file+" is a C++ language file")
+elif file.lower().endswith(".c"):
+    print(file+" is a C language file")
+elif file.lower().endswith(".mp3"):
+    print(file+" is a Audio file")
+elif file.lower().endswith(".zip"):
+    print(file+" is a Compressed file")
+elif file.lower().endswith(".iso"):
+    print(file+" is a Image file")
+elif file.lower().endswith(".exe"):
+    print(file+" is a Executable file")
+elif file.lower().endswith(".txt"):
+    print(file+" is a Text document file")
+elif file.lower().endswith(".mp4"):
+    print(file+" is a Video file")
+else:
+    print("File extension unidentified")
