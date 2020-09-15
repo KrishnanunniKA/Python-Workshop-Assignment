@@ -1,0 +1,11 @@
+A = []
+B = []
+n=int(input("Enter the no of elements in the List:"))
+print("Enter the values in the list:")
+for i in range(n):
+    A.append(int(input()))
+for j in range(n):
+    if A[j]>0:
+        B.append(k)
+print(A)
+print(B)
